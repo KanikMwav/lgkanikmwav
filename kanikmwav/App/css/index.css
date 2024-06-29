@@ -1,0 +1,384 @@
+body{background: rgb(255, 255, 255);}
+.oups{background: white; position: absolute; color: black; text-align: center; margin-top: 50%; font-weight: bold; font-size: 35px;}
+
+@media (max-width: 700px) {
+    *{background: rgb(255, 255, 255); color: rgb(0, 0, 0); box-sizing: border-box; margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    *::-webkit-scrollbar{width: 1px;}
+@-moz-document url-prefix(){
+   body{
+        overflow-y: auto;
+        overflow-x: auto;
+        scrollbar-width:thin;
+    }
+}
+a{text-decoration: none; background: transparent; }
+/* Pour les smartphones et écrans de tailles inférieures à 700px */
+#header{display: block; background: rgb(255, 255, 255); position:fixed; width: 100%; height: 2.5rem; padding: 0.1rem;}
+.title-app-index{background: transparent; cursor: pointer; position: absolute; width: auto; font-size: 1.4rem; font-weight: bold; margin-left: 1rem;}
+.All-blocs-header{display: none;}
+.icon-hidden-header{display: block; background: transparent; cursor: pointer; position: absolute; width: 1.5rem; height: 1.5rem; margin-left: 88%; margin-top: 0.2rem;}
+.icon-true-lines{background: transparent; width: 100%; height: 100%;}
+
+#main{display: flex; background: rgb(255, 255, 255); position: absolute; width: 100%; height: auto; margin-top: 2.5rem;}
+
+.me{background: rgb(255, 255, 255); width: 100%; height: auto;}
+.div-img-me-profil{background: transparent; position: absolute; width: 90%; height: 29rem; margin-left: 5%; margin-top: 4%; border-radius: 1rem;}
+.img-me-profil{background: transparent; object-fit: cover; width: 100%; height: 100%; border-radius: 1rem;}
+.my-bio{background: transparent; width: 85%; font-size: 14px; font-weight: bold; margin-left: 7%; margin-top: 31rem;}
+.click-social{background: transparent; color: black; font-size: 25px; font-weight: bold; margin-left: 10%; margin-top: 8%;}
+
+.my-contact-media-social{background: transparent; width: 100%; height: 2.5rem; }
+.icon-facebook{background: transparent; position: absolute; width: 2rem; height: 2rem; margin-left: 22%; margin-top: 1%;}
+.icon-whatsapp{background: transparent; position: absolute; width: 2rem; height: 2rem; margin-left: 33%; margin-top: 1%;}
+.icon-instagram{background: transparent; position: absolute; width: 1.9rem; height: 1.9rem; margin-left: 46%; margin-top: 1.4%;}
+.icon-x{background: transparent; position: absolute; width: 1.7rem; height: 1.7rem; margin-left: 58%; margin-top: 1.4%;}
+.icon-linkind{background: transparent; position: absolute; width: 2rem; height: 2rem; margin-left: 70%; margin-top: 1%;}
+
+.projects{background: transparent; font-size: 25px; font-weight: bold; margin-left: 10%; margin-top: 12%;}
+
+.div-img{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}
+.div-img-1{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}
+.img{background: transparent; object-fit: cover; width: 100%;  border-radius: 0.5rem;}
+.description{background: transparent; width: 90%; font-size: 14px; font-weight: bold; margin-left: 2%; margin-top: 1%;}
+.div-img-2{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}
+.div-img-3{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}
+.div-img-4{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}
+.div-img-5{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}    
+.div-img-6{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}
+.div-img-7{background: transparent; cursor: pointer; width: 90%;  margin-left: 5%; margin-top: 5%; border-radius: 0.5rem;}
+
+.other-div{background: rgb(255, 255, 255); width: 100%; height: 100rem;}
+
+.tarifs{background: transparent; font-size: 25px; font-weight: bold; margin-left: 10%; }
+/*Les styles de tout les bloc tarifs et les titres du types blocs*/
+.bloc-tarifs-view{background: rgb(61, 17, 1);  width: 90%; height: auto; margin-left: 5%; margin-top: 4.8%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-two{background: transparent;  width: 90%; height: auto; margin-left: 5%; margin-top: 10%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-true{background: rgb(61, 17, 1);  width: 90%; height: auto; margin-left: 5%; margin-top: 10%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-four{background: transparent; width: 90%; height: auto; margin-left: 5%; margin-top: 10%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-five{background: rgb(61, 17, 1); width: 90%; height: auto; margin-left: 5%; margin-top: 10%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-six{background: transparent; width: 90%; height: auto; margin-left: 5%; margin-top: 10%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+/*Le bloc application web*/
+hr{background: rgb(255, 255, 255); width: 80%; margin-left: 10.2%;}
+.title-tarifs-view{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+.para-1{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 3%;}
+.para-2{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-3{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-4{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-5{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600;text-align: center; margin-top: 2%;}
+.ne-pas-opter-plan{background: rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 4%; border-radius: 5px;}
+.ne-pas-opter-plan:hover{background: rgb(47, 47, 47); color: rgb(255, 255, 255); border: 2px solid rgb(47, 47, 47);}
+.ne-pas-opter-plan:active{background: rgb(0, 0, 0); color: rgb(255, 255, 255); border: 2px solid rgb(0, 0, 0);}
+.prix-home{background: rgb(255, 255, 255); color: rgb(0, 0, 0);  width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 8%; border-radius: 5px;}
+/*Le bloc MVP*/
+.hr-mvp{background: rgb(0, 0, 0);}
+.title-tarifs-view-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+.para-1-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 3%;}
+.para-2-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-3-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-4-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-5-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.ne-pas-opter-plan-mvp{background: rgb(255, 255, 255); color: rgb(0, 0, 0); cursor: pointer; width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 4%; border-radius: 5px; border: 2px solid rgb(0, 0, 0);}
+.ne-pas-opter-plan-mvp:hover{background: rgb(47, 47, 47); color: rgb(255, 255, 255); border: 2px solid rgb(47, 47, 47);}
+.ne-pas-opter-plan-mvp:active{background: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 2px solid rgb(0, 0, 0);}
+.prix-home-mvp{background: rgb(0, 0, 0); color: rgb(255, 255, 255); width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 8%; border-radius: 5px;}
+/*Le bloc application mobile*/
+.title-tarifs-view-mobile{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+/*Le bloc prototype ou maquettes*/
+.title-tarifs-view-prototype{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 20px; font-weight: 600; text-align: center; margin-top: 4%;}
+/*Le bloc site web*/
+.title-tarifs-view-site-web{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+
+#footer{background: rgb(255, 255, 255); position: absolute; width: 100%; height: 5%; margin-top: 4%;}
+
+
+.result-settings{background: black; display: none; position: absolute; width: 100%; height: 40rem;}
+.icon-close-bloc-result{background: transparent; color: rgb(255, 255, 255); cursor: pointer; position: absolute; width: auto;  margin-left: 90%; margin-top: 1%;}
+.acueill{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 10%;}
+.contact{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+.oeuvres{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+.my-bio-professionnelle{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+.work{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+
+.bloc-infos-link{background: white; display: none; position: fixed; width: 58%; height: 28%; border-radius: 1rem; box-shadow: 0 0 10rem rgb(59, 58, 58); margin-left: 22%; margin-top: 45%;}
+.icon-close-bloc-link{background: transparent; color: rgb(0, 0, 0); cursor: pointer; font-weight: bold; font-size: 15px; position: absolute; width: auto;  margin-left: 80%; margin-top: 1%;}
+.link-facebook{background: transparent; position: absolute; text-align: center; font-weight: bold; color: black; width: 100%; padding: 1%; margin-top: 15%;}
+.link-facebook:active{background: rgb(194, 194, 194); }
+.link-whatsapp{background: transparent; position: absolute; text-align: center; font-weight: bold; color: black; width: 100%; padding: 1%; margin-top: 25%;}
+.link-whatsapp:active{background: rgb(194, 194, 194); }
+.link-instagram{background: transparent; position: absolute; text-align: center; font-weight: bold; color: black; width: 100%; padding: 1%; margin-top: 35%;}
+.link-instagram:active{background: rgb(194, 194, 194); }
+
+
+}
+
+
+
+
+@media (max-width: 840px) and (min-width: 701px) {
+    *{background: rgb(255, 255, 255); color: rgb(0, 0, 0); box-sizing: border-box; margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    *::-webkit-scrollbar{width: 1px;}
+@-moz-document url-prefix(){
+   body{
+        overflow-y: auto;
+        overflow-x: auto;
+        scrollbar-width:thin;
+    }
+}
+a{text-decoration: none; background: transparent;}
+/* Pour les smartphones et écrans tailles allant de 701px jusqu'à 1400px */
+    #header{display: block; background: rgb(255, 255, 255);  position:fixed; width: 100%; height: 2.5rem; padding: 0.1rem;}
+    .title-app-index{background: transparent; cursor: pointer; position: absolute; width: auto; font-size: 1.4rem; font-weight: bold; margin-left: 2rem;}
+    .All-blocs-header{display: none;}
+    .icon-hidden-header{display: block; background: transparent; cursor: pointer; position: absolute; width: 1.5rem; height: 1.5rem; margin-left: 88%; margin-top: 0.2rem;}
+    .icon-true-lines{background: transparent; width: 100%; height: 100%;}
+
+    
+    #main{display: block; background: rgb(255, 255, 255); position: absolute; width: 100%; height: auto; margin-top: 2.5rem;}
+    
+    .me{background: rgb(255, 255, 255); width: 100%; height: auto;}
+    .div-img-me-profil{background: transparent; position: absolute; width: 40%; height: 20rem; margin-left: 2%; border-radius: 1rem;}
+    .img-me-profil{background: transparent; object-fit: cover; width: 100%; height: 100%; border-radius: 1rem;}
+    .my-bio{background: transparent; width: 55%; font-size: 18px; font-weight: bold; margin-left: 45%; margin-top: 3%;}
+    .click-social{background: transparent;  color: black; font-size: 28px; font-weight: bold; margin-left: 50%; margin-top: 3%;}
+
+    .my-contact-media-social{background: transparent; width: 100%; height: 3.5rem; }
+    .icon-facebook{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 49%; margin-top: 1%;}
+    .icon-whatsapp{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 59%; margin-top: 1%;}
+    .icon-instagram{background: transparent; position: absolute; width: 2.4rem; height: 2.4rem; margin-left: 69%; margin-top: 1.2%;}
+    .icon-x{background: transparent; position: absolute; width: 2.2rem; height: 2.2rem; margin-left: 79%; margin-top: 1.2%;}
+    .icon-linkind{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 89%; margin-top: 1%;}
+
+    .projects{background: transparent; font-size: 25px; font-weight: bold; margin-left: 3%; margin-top: 10%;}
+
+    .div-img{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 1.5%; border-radius: 0.5rem;}
+    .img{background: transparent; object-fit: cover; width: 100%;  border-radius: 0.5rem;}
+    .description{background: transparent; width: 90%; font-size: 14px; font-weight: bold; margin-left: 2%; margin-top: 1.5%;}
+    .div-img-1{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 2%; border-radius: 0.5rem;}
+    .div-img-2{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 74%; border-radius: 0.5rem;}
+    .div-img-3{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 74%; border-radius: 0.5rem;}
+    .div-img-4{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 141%; border-radius: 0.5rem;}
+    .div-img-5{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 141%; border-radius: 0.5rem;}    
+    .div-img-6{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 202%; border-radius: 0.5rem;}
+    .div-img-7{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 202%; border-radius: 0.5rem;}
+
+
+    .other-div{background: rgb(231, 1, 1); width: 100%; height: 250%; margin-top: 295%;}
+
+.tarifs{background: transparent; font-size: 25px; font-weight: bold; margin-left: 10%; }
+/*Les styles de tout les bloc tarifs et les titres du types blocs*/
+.bloc-tarifs-view{background: rgb(61, 17, 1); position: absolute; width: 44%; height: auto; margin-left: 3.5%; margin-top: 4.8%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-two{background: transparent; position: absolute; width: 44%; height: auto; margin-left: 52%; margin-top: 4.8%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-true{background: rgb(61, 17, 1); position: absolute;  width: 44%; height: auto; margin-left: 52%; margin-top: 65%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-four{background: transparent; position: absolute; width: 44%; height: auto; margin-left: 52%; margin-top: 115%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-five{background: rgb(61, 17, 1); position: absolute; width: 44%; height: auto; margin-left: 3%; margin-top: 115%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+.bloc-tarifs-view-six{background: transparent; width: 44%; height: auto; margin-left: 3%; margin-top: 62%; border-radius: 0.5rem; border: 2px solid rgb(61, 17, 1);}
+/*Le bloc application web*/
+hr{background: rgb(255, 255, 255); width: 80%; margin-left: 10.2%;}
+.title-tarifs-view{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+.para-1{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 3%;}
+.para-2{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-3{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-4{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-5{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 12px; font-weight: 600;text-align: center; margin-top: 2%;}
+.ne-pas-opter-plan{background: rgb(0, 0, 0); color: rgb(255, 255, 255); cursor: pointer; width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 4%; border-radius: 5px;}
+.ne-pas-opter-plan:hover{background: rgb(47, 47, 47); color: rgb(255, 255, 255); border: 2px solid rgb(47, 47, 47);}
+.ne-pas-opter-plan:active{background: rgb(0, 0, 0); color: rgb(255, 255, 255); border: 2px solid rgb(0, 0, 0);}
+.prix-home{background: rgb(255, 255, 255); color: rgb(0, 0, 0);  width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 8%; border-radius: 5px;}
+/*Le bloc MVP*/
+.hr-mvp{background: rgb(0, 0, 0);}
+.title-tarifs-view-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+.para-1-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 3%;}
+.para-2-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-3-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-4-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.para-5-mvp{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 12px; font-weight: 600; text-align: center; margin-top: 2%;}
+.ne-pas-opter-plan-mvp{background: rgb(255, 255, 255); color: rgb(0, 0, 0); cursor: pointer; width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 4%; border-radius: 5px; border: 2px solid rgb(0, 0, 0);}
+.ne-pas-opter-plan-mvp:hover{background: rgb(47, 47, 47); color: rgb(255, 255, 255); border: 2px solid rgb(47, 47, 47);}
+.ne-pas-opter-plan-mvp:active{background: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 2px solid rgb(0, 0, 0);}
+.prix-home-mvp{background: rgb(0, 0, 0); color: rgb(255, 255, 255); width: 80%; font-size: 12px; text-align: center; font-weight: bold; padding: 3%; margin-left: 10%; margin-top: 8%; border-radius: 5px;}
+/*Le bloc application mobile*/
+.title-tarifs-view-mobile{background: transparent; color: rgb(255, 255, 255); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+/*Le bloc prototype ou maquettes*/
+.title-tarifs-view-prototype{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 20px; font-weight: 600; text-align: center; margin-top: 4%;}
+/*Le bloc site web*/
+.title-tarifs-view-site-web{background: transparent; color: rgb(0, 0, 0); width: auto; font-size: 24px; font-weight: 600; text-align: center; margin-top: 4%;}
+
+
+  #footer{background: rgb(61, 17, 1); width: 100%; height: 1%;}
+
+
+    .result-settings{background: black; display: none; position: absolute; width: 100%; height: 40rem;}
+    .icon-close-bloc-result{background: transparent; color: rgb(255, 255, 255); cursor: pointer; position: absolute; width: auto;  margin-left: 90%; margin-top: 1%;}
+    .acueill{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 10%;}
+    .contact{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .oeuvres{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .my-bio-professionnelle{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .work{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 950px) and (min-width: 841px) {
+    *{background: rgb(255, 255, 255); color: rgb(0, 0, 0); box-sizing: border-box; margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    *::-webkit-scrollbar{width: 1px;}
+@-moz-document url-prefix(){
+   body{
+        overflow-y: auto;
+        overflow-x: auto;
+        scrollbar-width:thin;
+    }
+}
+a{text-decoration: none; background: transparent;}
+/* Pour les smartphones et écrans tailles allant de 701px jusqu'à 1400px */
+    #header{display: block; background: rgb(255, 255, 255);  position:fixed; width: 100%; height: 2.5rem; padding: 0.1rem;}
+    .title-app-index{background: transparent; cursor: pointer; position: absolute; width: auto; font-size: 1.4rem; font-weight: bold; margin-left: 2rem;}
+    .All-blocs-header{display: none;}
+    .icon-hidden-header{display: block; background: transparent; cursor: pointer; position: absolute; width: 1.5rem; height: 1.5rem; margin-left: 88%; margin-top: 0.2rem;}
+    .icon-true-lines{background: transparent; width: 100%; height: 100%;}
+
+    
+    #main{display: block; background: rgb(255, 255, 255); position: absolute; width: 100%; height: auto; margin-top: 2.5rem;}
+    
+    .me{background: rgb(255, 255, 255); width: 100%; height: auto;}
+    .div-img-me-profil{background: transparent; position: absolute; width: 40%; height: 20rem; margin-left: 2%; border-radius: 1rem;}
+    .img-me-profil{background: transparent; object-fit: cover; width: 100%; height: 100%; border-radius: 1rem;}
+    .my-bio{background: transparent; width: 55%; font-size: 18px; font-weight: bold; margin-left: 45%; margin-top: 3%;}
+    .click-social{background: transparent;  color: black; font-size: 28px; font-weight: bold; margin-left: 50%; margin-top: 3%;}
+
+    .my-contact-media-social{background: transparent; width: 100%; height: 3.5rem; }
+    .icon-facebook{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 49%; margin-top: 1%;}
+    .icon-whatsapp{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 59%; margin-top: 1%;}
+    .icon-instagram{background: transparent; position: absolute; width: 2.4rem; height: 2.4rem; margin-left: 69%; margin-top: 1.2%;}
+    .icon-x{background: transparent; position: absolute; width: 2.2rem; height: 2.2rem; margin-left: 79%; margin-top: 1.2%;}
+    .icon-linkind{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 89%; margin-top: 1%;}
+
+    .projects{background: transparent; font-size: 25px; font-weight: bold; margin-left: 3%; margin-top: 10%;}
+
+    .div-img{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 1%; border-radius: 0.5rem;}
+    .img{background: transparent; object-fit: cover; width: 100%;  border-radius: 0.5rem;}
+    .description{background: transparent; width: 90%; font-size: 14px; font-weight: bold; margin-left: 2%; margin-top: 1%;}
+    .div-img-1{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 1%; border-radius: 0.5rem;}
+    .div-img-2{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 68%; border-radius: 0.5rem;}
+    .div-img-3{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 68%; border-radius: 0.5rem;}
+    .div-img-4{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 128%; border-radius: 0.5rem;}
+    .div-img-5{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 128%; border-radius: 0.5rem;}    
+    .div-img-6{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 182%; border-radius: 0.5rem;}
+    .div-img-7{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 182%; border-radius: 0.5rem;}
+
+
+   
+    .result-settings{background: black; display: none; position: absolute; width: 100%; height: 40rem;}
+    .icon-close-bloc-result{background: transparent; color: rgb(255, 255, 255); cursor: pointer; position: absolute; width: auto;  margin-left: 90%; margin-top: 1%;}
+    .acueill{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 10%;}
+    .contact{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .oeuvres{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .my-bio-professionnelle{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .work{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1150px) and (min-width: 951px) {
+    *{background: rgb(255, 255, 255); color: rgb(0, 0, 0); box-sizing: border-box; margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    *::-webkit-scrollbar{width: 1px;}
+@-moz-document url-prefix(){
+   body{
+        overflow-y: auto;
+        overflow-x: auto;
+        scrollbar-width:thin;
+    }
+}
+a{text-decoration: none; background: transparent; color: rgb(0, 89, 255);}
+/* Pour les smartphones et écrans tailles allant de 701px jusqu'à 1400px */
+    #header{display: block; background: rgb(255, 255, 255);  position:fixed; width: 100%; height: 2.5rem; padding: 0.1rem;}
+    .title-app-index{background: transparent; cursor: pointer; position: absolute; width: auto; font-size: 1.4rem; font-weight: bold; margin-left: 2rem;}
+    .All-blocs-header{display: block; background: transparent; width: 75%; font-weight: bold; padding: 0.7%; justify-content: space-between; margin-left: 25%;}
+    .home-header{margin-left: 15%;}
+    .contact-header{margin-left: 5%;}
+    .project-header{margin-left: 5%;}
+    .bio-header{margin-left: 5%;}
+    .work-header{margin-left: 5%;}
+    .icon-hidden-header{display: none; background: transparent; cursor: pointer; position: absolute; width: 1.5rem; height: 1.5rem; margin-left: 88%; margin-top: 0.2rem;}
+    .icon-true-lines{background: transparent; width: 100%; height: 100%;}
+
+    
+    #main{display: block; background: rgb(255, 255, 255); position: absolute; width: 100%; height: auto; margin-top: 2.5rem;}
+    
+    .me{background: rgb(255, 255, 255); width: 100%; height: auto;}
+    .div-img-me-profil{background: transparent; position: absolute; width: 40%; height: 23rem; margin-left: 2%; border-radius: 1rem;}
+    .img-me-profil{background: transparent; object-fit: cover; width: 100%; height: 100%; border-radius: 1rem;}
+    .my-bio{background: transparent; width: 55%; font-size: 19px; font-weight: bold; margin-left: 45%; margin-top: 3%;}
+    .click-social{background: transparent;  color: black; font-size: 28px; font-weight: bold; margin-left: 50%; margin-top: 3%;}
+
+    .my-contact-media-social{background: transparent; width: 100%; height: 3.5rem; }
+    .icon-facebook{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 49%; margin-top: 1%;}
+    .icon-whatsapp{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 59%; margin-top: 1%;}
+    .icon-instagram{background: transparent; position: absolute; width: 2.4rem; height: 2.4rem; margin-left: 69%; margin-top: 1.2%;}
+    .icon-x{background: transparent; position: absolute; width: 2.2rem; height: 2.2rem; margin-left: 79%; margin-top: 1.2%;}
+    .icon-linkind{background: transparent; position: absolute; width: 2.5rem; height: 2.5rem; margin-left: 89%; margin-top: 1%;}
+
+    .projects{background: transparent; font-size: 25px; font-weight: bold; margin-left: 3%; margin-top: 10%;}
+
+    .div-img{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 1%; border-radius: 0.5rem;}
+    .img{background: transparent; object-fit: cover; width: 100%;  border-radius: 0.5rem;}
+    .description{background: transparent; width: 90%; font-size: 14px; font-weight: bold; margin-left: 2%; margin-top: 1%;}
+    .div-img-1{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 1%; border-radius: 0.5rem;}
+    .div-img-2{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 62%; border-radius: 0.5rem;}
+    .div-img-3{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 62%; border-radius: 0.5rem;}
+    .div-img-4{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 115%; border-radius: 0.5rem;}
+    .div-img-5{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 115%; border-radius: 0.5rem;}    
+    .div-img-6{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 2.5%; margin-top: 164%; border-radius: 0.5rem;}
+    .div-img-7{background: transparent; position: absolute; cursor: pointer; width: 45%;  margin-left: 52%; margin-top: 164%; border-radius: 0.5rem;}
+
+
+ 
+
+    
+
+    .result-settings{background: black; display: none; position: absolute; width: 100%; height: 40rem;}
+    .icon-close-bloc-result{background: transparent; color: rgb(255, 255, 255); cursor: pointer; position: absolute; width: auto;  margin-left: 90%; margin-top: 1%;}
+    .acueill{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 10%;}
+    .contact{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .oeuvres{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+    .my-bio-professionnelle{background: transparent; color: white; font-size: 15px; margin-left: 8%; margin-top: 5%;}
+   
+}
+
+
